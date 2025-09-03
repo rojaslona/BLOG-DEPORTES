@@ -20,15 +20,17 @@ Su propósito es ofrecer un espacio donde los usuarios puedan informarse, debati
 - Visualización de artículos y noticias deportivas.  
 - Sistema de categorías (fútbol, baloncesto, tenis, etc.).  
 - Buscador de publicaciones.  
-- CRUD de artículos (crear, leer, actualizar y eliminar).  
-- Gestión de usuarios y autenticación.  
-- Posibilidad de dejar comentarios en los posts.  
+- CRUD de artículos (crear, leer, actualizar y eliminar).    
+- Posibilidad de dejar comentarios en los posts.
+- video Streaming para mundiales 
 
-## 📂 Estructura del proyecto
+## 📂 Como ejecutar el proyecto
 ```bash
-/blog-deportes
-│── /frontend        # Aplicación cliente
-│── /backend         # API y lógica de negocio
-│── /database        # Scripts y modelos de base de datos
-│── README.md        # Documentación del proyecto
+Clona este repositorio
+git clone https://github.com/tu-usuario/blog-deportes.git
 
+Instala dependencias en frontend y backend
+npm install
+
+Ejecuta el servidor backend
+npm run dev
